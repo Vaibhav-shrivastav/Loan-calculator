@@ -1,0 +1,52 @@
+.main{
+    text-align: center;
+}
+
+.start .main .display h1{
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+
+}
+
+.options{
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+    font-family: 'Quicksand', 'Times New Roman', Times, serif;
+    transition: 0.3s
+}
+
+.options:hover{
+    transform: scale(1.05);
+}
+
+#submit{
+    color:black ;
+    font-weight: 900;
+    font-family: 'Poppins', Courier, monospace;
+    transition: 0.2s;
+}
+
+#submit:hover{
+    background-color: gainsboro;
+    transform: scale(1.05);
+}
+
+#loading, .results{
+    display: none;
+}
+
+span{
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.results h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
